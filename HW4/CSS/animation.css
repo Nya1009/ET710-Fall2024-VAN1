@@ -1,0 +1,12 @@
+#box3 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: box3 5s; /* Chrome, Safari, Opera */
+    animation: box3 5s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes box3 {
+    0% {background: red; left:0px; top:0px}
+}
