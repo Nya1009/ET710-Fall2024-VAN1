@@ -4,7 +4,7 @@ const form = document.forms["surveyForm"];
 // Reference to modal hidden on the page.
 const modal = document.getElementById("resultModal");
 
-// Add a listner to the submit event for the survey form
+// Add a listener to the submit event for the survey form
 form.addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent form from refreshing the page
 
@@ -23,9 +23,9 @@ form.addEventListener("submit", function (event) {
 
     document.getElementById("age").textContent = form['age'].value;
 
-    document.getElementById("satisfaction").textContent = ['satisfaction'].value;
+    document.getElementById("satisfaction").textContent = form['satisfaction'].value;
 
-    document.getElementById("contactMethod").textContent = ['contactMethod'].value;
+    document.getElementById("contactMethod").textContent = form['contactMethod'].value;
 
     document.getElementById("comments").textContent = form ['comments'].value;
 
