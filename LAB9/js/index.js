@@ -31,13 +31,12 @@ function calculateResult() {
         default:
             return;
     }
+
+    currentNumber = result.toString();
+    previousNumber = '';
+    operation = null;
+    updateDisplay();
 }
-
-
-
-
-
-
 
 function appendNumber(number) {
     currentNumber += number.toString()
