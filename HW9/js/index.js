@@ -35,7 +35,9 @@ function checkIfHoliday(today = "")
     // Add 1 because the result is zero based.
     // 0 - 11
     let currentMonth = (date.getMonth() + 1);
-    if(currentMonth = )
+    if(currentMonth == 12 && currentDayofMonth == 25) {
+        return true;
+    }
 
     return false;
 }
