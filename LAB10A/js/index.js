@@ -20,7 +20,7 @@ function displayFriday() {
         "Pick up Dry Cleaning"
     ];
 
-    displayFriday(TODO);
+    display(TODO);
 }
 
 function displaySaturday() {
@@ -30,7 +30,7 @@ function displaySaturday() {
         "Grocery Shopping"
     ];
 
-    displaySaturday(TODO);
+    display(TODO);
 }
 
 function displaySunday() {
@@ -40,7 +40,7 @@ function displaySunday() {
         "Pickup Gift for Nephew"
     ];
 
-    displaySunday(TODO);
+    display(TODO);
     
 }
 function display(list) {
